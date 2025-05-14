@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak</title>
+  <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+  <h1>Kontak</h1>
+  <form id="addContactForm">
+    <input type="number" id="contactNumber" placeholder="Nomor orang" required maxlength="6">
+    <input type="text" id="contactName" placeholder="Nama kontak" required>
+    <button type="submit">Simpan</button>
+  </form>
+
+  <input type="text" id="searchContact" placeholder="Cari kontak...">
+  <ul id="contactList">
+    <!-- List kontak akan ditampilkan di sini -->
+  </ul>
+
+  <script src="js/contacts.js"></script>
+</body>
+</html>
