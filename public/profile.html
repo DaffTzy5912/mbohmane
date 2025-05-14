@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil</title>
+  <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+  <div id="profileContainer">
+    <img id="profilePic" src="default.png" alt="Foto Profil">
+    <input type="file" id="uploadPic" accept="image/*">
+    <input type="text" id="profileName" placeholder="Nama">
+    <textarea id="profileBio" placeholder="Bio"></textarea>
+    <button id="saveProfile">Simpan</button>
+  </div>
+
+  <div id="otherProfile" style="display:none;">
+    <img id="otherPic" src="default.png" alt="Foto Profil">
+    <h2 id="otherName">Nama</h2>
+    <p id="otherBio">Bio</p>
+  </div>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
