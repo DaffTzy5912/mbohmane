@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+  <header>
+    <button onclick="window.history.back()">Kembali</button>
+    <h2 id="chatName">Nama Kontak</h2>
+    <span id="statusOnline">Offline</span>
+  </header>
+  <div id="chatContainer">
+    <!-- Pesan masuk/keluar -->
+  </div>
+  <form id="chatForm">
+  <input type="text" id="textMessage" placeholder="Ketik pesan...">
+  <input type="file" id="imageMessage" accept="image/*">
+  <button type="submit">Kirim</button>
+</form>
+<div id="chatContainer"></div>
+  <script src="js/chat.js"></script>
+</body>
+</html>
