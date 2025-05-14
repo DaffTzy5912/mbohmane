@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+h1 {
+  color: #075e54;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #25d366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#searchContact {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#contactList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#contactList li {
+  background: white;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 350px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
