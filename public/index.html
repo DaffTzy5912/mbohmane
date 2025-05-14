@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Login / Daftar</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="container">
+    <h1>WhatsApp Clone</h1>
+    <form id="registerForm">
+      <h2>Daftar</h2>
+      <input type="text" id="regName" placeholder="Nama" required>
+      <input type="number" id="regNumber" placeholder="Nomor (max 6 digit)" required maxlength="6">
+      <button type="submit">Daftar</button>
+    </form>
+
+    <form id="loginForm">
+      <h2>Login</h2>
+      <input type="number" id="loginNumber" placeholder="Masukkan Nomor" required maxlength="6">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
